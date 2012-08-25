@@ -1,0 +1,2 @@
+#define ICO_MAIN						100
+ICO_MAIN				ICON      DISCARDABLE "Main.ico"

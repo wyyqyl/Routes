@@ -1,0 +1,6 @@
+#include "Res/RouteDlg.rc"
+#include "Res/RouteRes.rc"
+
+#define MANIFEST 24
+#define IDR_MANIFEST 1
+IDR_MANIFEST MANIFEST "manifest.xml"
