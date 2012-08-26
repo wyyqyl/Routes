@@ -1,3 +1,4 @@
-# Google Public DNS
-8.8.8.8 255.255.255.255
-8.8.4.4 255.255.255.255
+# You can manully specify the ip range here
+# The format should be: "ip mask", the examples are shown below
+# 8.8.8.8 255.255.255.255
+# 8.8.4.4 255.255.255.255
