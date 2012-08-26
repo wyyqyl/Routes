@@ -42,8 +42,8 @@ szCmRouteDll		db	'cmroute.dll', 0
 szSetRoutes			db	'SetRoutes', 0
 
 szDownloadCmd		db	'python.exe chnroutes.py', 0
-szAdd				db	'/STATIC_FILE_NAME chnroutesAdd /DONT_REQUIRE_URL /IPHLPAPI_ACCESS_DENIED_OK', 0
-szDel				db	'/STATIC_FILE_NAME chnroutesDel /DONT_REQUIRE_URL /IPHLPAPI_ACCESS_DENIED_OK', 0
+szAdd				db	'/STATIC_FILE_NAME addchnroutes.txt /DONT_REQUIRE_URL /IPHLPAPI_ACCESS_DENIED_OK', 0
+szDel				db	'/STATIC_FILE_NAME delchnroutes.txt /DONT_REQUIRE_URL /IPHLPAPI_ACCESS_DENIED_OK', 0
 
 szExecError			db	'Error occured when executing command: python.exe chnroute.py', 0
 szLoadError			db	'Error occured when LoadLibrary cmroutes.dll', 0
