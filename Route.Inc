@@ -46,6 +46,6 @@ szAdd				db	'/STATIC_FILE_NAME addchnroutes.txt /DONT_REQUIRE_URL /IPHLPAPI_ACCE
 szDel				db	'/STATIC_FILE_NAME delchnroutes.txt /DONT_REQUIRE_URL /IPHLPAPI_ACCESS_DENIED_OK', 0
 
 szExecError			db	'Error occured when executing command: python.exe chnroute.py', 0
-szLoadError			db	'Error occured when LoadLibrary cmroutes.dll', 0
+szLoadError			db	'Error occured when LoadLibrary cmroute.dll', 0
 szNoFunc			db	'No function named SetRoutes in the dll', 0
 szError				db	'Error', 0
